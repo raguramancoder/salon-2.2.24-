@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Teams</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <style>
+
+        .member {
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        .member img {
+            max-width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- meeet our team -->
+
+    <header>
+        <h1>Meet Our Team</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="booking.html">Book an Appointment</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="team">
+
+        <h2>Our Talented Team</h2>
+
+        <div class="member">
+            <img width="250px" height="200px" src="data:image/jpeg;base64,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" alt="Team Member 1">
+            <h3>John Doe</h3>
+            <p>Senior Stylist</p>
+            <p>John is a highly skilled stylist with over 10 years of experience in the industry. He specializes in creating trendy and unique hairstyles.</p>
+        </div>
+
+        <div class="member">
+            <img width="250px" height="200px" src="https://i.pinimg.com/736x/b2/c1/75/b2c175cdd5d8eee0f7f9503d7ec1ed5a.jpg" alt="Team Member 2">
+            <h3>Jane Smith</h3>
+            <p>Esthetician</p>
+            <p>Jane is a certified esthetician who is passionate about skincare. She offers a range of facial treatments tailored to each client's needs.</p>
+        </div>
+
+        <div class="member">
+            <img width="250px" height="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9XTjPXrymff1Cjmmacoykh3fSLKnbfvU9zQ&usqp=CAU" alt="Team Member 3">
+            <h3>Michael Johnson</h3>
+            <p>Nail Technician</p>
+            <p>Michael is a talented nail technician who takes pride in creating beautiful and long-lasting manicures and pedicures.</p>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 Salon Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
